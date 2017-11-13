@@ -1,0 +1,115 @@
+***
+Full Name (as it should appear on name tags)
+***
+
+     Gonzalo Aguilar
+
+***
+Email
+***
+
+     gonzalo.aguilar@Yale.edu
+
+***
+In which course are you enrolled?
+***
+
+     CPSC 100 at Yale
+
+***
+If you plan to collaborate with 1 or 2 classmates for the final project, provided their Harvard or Yale email addresses here (or the addresses with which they registered for the course).  Be sure they're correct! - First collaborator's email address, if any
+***
+
+     BLANK
+
+***
+If you plan to collaborate with 1 or 2 classmates for the final project, provided their Harvard or Yale email addresses here (or the addresses with which they registered for the course).  Be sure they're correct! - Second collaborator's email address, if any
+***
+
+     BLANK
+
+***
+Under which "track" does your project fall, per the spec? - Selected Choice
+***
+
+     Software Track
+
+***
+Under which "track" does your project fall, per the spec? - Other: - Text
+***
+
+     BLANK
+
+***
+With which other course are you proposing to combine final projects, and which aspect(s) of your proposed project would relate to CS50, and which aspect(s) would relate to the other course?
+***
+
+     BLANK
+
+***
+Into which categories does your project fall?
+***
+
+     Website, Python-Based
+
+***
+Which language(s) will you use for your project?
+***
+
+     HTML,Java,Python,SQL
+
+***
+What will (likely) be the title of your project?
+***
+
+     Fitting models to Astronomical Data
+
+***
+In just a sentence or two, summarize your project.  (E.g., "A website that lets you buy and sell stocks.")
+***
+
+     A web-based app that takes in spectroscopic data and fits a model onto it. 
+
+***
+So that everyone can delight in each other's choice of projects, we may post everyone's name, title, summary, and type of project / language(s) on the course's website. If you would like to be excluded from that list, though, you may opt out.
+***
+
+     I'd like to opt out. Please do not mention me or my project on the course's website.
+
+***
+Where will your project ultimately live? - Selected Choice
+***
+
+     not sure yet
+
+***
+Where will your project ultimately live? - other - Text
+***
+
+     BLANK
+
+***
+In a paragraph or more, detail your project. What will your software do? What features will it have? How will it be executed?
+***
+
+     Given some user submitted data formatted, the app would fit a desired model and return the data with the model placed over it. The data would look like a line with a noticeable dip or peak, which could represent absorption lines from the star's atmosphere or some other feature. The app would set a baseline for the data by removing the datapoints farthest from a rough estimate and then repeat the process where you have a normalized line. Then it fits a function using that baseline that fits the peak or peaks in the data.
+
+***
+In the world of software, most everything takes longer to implement than you expect.  And so it's not uncommon to accomplish less in a fixed amount of time than you hope.
+In a sentence (or list of features), define a GOOD outcome for your final project.  I.e., what WILL you accomplish no matter what?
+***
+
+     Given some formatted data with one noticeable peak, return the baseline and a gaussian that models the peak.
+
+***
+In a sentence (or list of features), define a BETTER outcome for your final project.  I.e., what do you THINK you can accomplish before the final project's deadline?
+***
+
+     Given some formatted data with one or more peaks, return the baseline and a gaussian or a lorentzian function to the peak. The user can request a gaussian or lorentzian from the app.
+
+***
+In a sentence (or list of features), define a BEST outcome for your final project.  I.e., what do you HOPE to accomplish before the final project's deadline?
+***
+
+     Same as above but the user can upload raw data, and manually select the points between which a model would be fitted.
+
