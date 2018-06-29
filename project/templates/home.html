@@ -1,0 +1,23 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Index
+{% endblock %}
+
+{% block main %}
+    <p>Sample data fitted with a gaussian</p>
+    <img src="/static/sampledatagaussian.png" width="500">
+    <p>Sample data fitted with a gaussian</p>
+    <img src="/static/sampledatalorentzian.png" width="500">
+    <form action ="/" method="post" enctype=multipart/form-data>
+        <p>Choose what function you would like to fit to your data.</p>
+        <select name='function'>
+              <option value="gaussian">Gaussian</option>
+              <option value="lorentzian">Lorentzian</option>
+        </select> 
+        </div>
+        <p>Choose the data file you want to upload.(Must be in .txt form)</p>
+        <input name='file' type="file">
+        <button class="btn btn-primary" type="submit">Upload Data</button>
+    </form>
+{% endblock %}
